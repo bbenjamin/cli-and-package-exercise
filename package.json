@@ -1,0 +1,26 @@
+{
+  "name": "cli-and-package-exercise",
+  "version": "1.0.0",
+  "description": "This exercise is open-book/open-web, but please don't get direct assistiance from other people. There's a chance you will not be familiar with every concept in the exercise - this is intentional. The ability to quickly figure things out by searching online is part of what this is evaluating. Every step in this exercise is well documented online, with many examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src --out-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohcherryyy/cli-and-package-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohcherryyy/cli-and-package-exercise/issues"
+  },
+  "homepage": "https://github.com/ohcherryyy/cli-and-package-exercise#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
